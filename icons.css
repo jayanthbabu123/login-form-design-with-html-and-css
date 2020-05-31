@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.icon-list{
+    position: absolute;
+    top: 42%;
+    transform: translateY(-55%);
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    color:#555;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.icon{
+    display: inline-block;
+    width:90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px -5px #888888;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon i{
+    line-height: 90px;
+    font-size: 30px;
+}
+
+.facebook i{
+    color:#3b5998;
+}
+
+.google i{
+    color:#dc4e41;
+}
+
+.twitter i{
+    color: #1da1f2
+}
+.instagram i{
+    color:#c32aa3
+}
+
+.facebook:hover{
+    background: #3b5998
+}
+
+.google:hover{
+    background: #dc4e41;
+
+}
+
+.twitter:hover{
+    background:#1da1f2
+}
+
+.instagram:hover{
+    background: #c32aa3;
+}
+
+.icon:hover{
+    color:white;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+
+.icon:hover i{
+    color:white;
+    font-size: 35px;
+    transform: rotateY(180deg)
+}
